@@ -4,6 +4,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Heart, FileText, Mic, Star, GraduationCap, ChevronDown } from "lucide-react";
 import { stats, researchInterests } from "@/lib/data";
 import Image from "next/image";
+import React from "react";
 
 const iconMap: Record<string, React.ReactNode> = {
   Heart: <Heart className="w-5 h-5" />,

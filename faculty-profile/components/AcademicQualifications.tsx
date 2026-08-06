@@ -5,6 +5,8 @@ import { GraduationCap, Award, BookOpen, Scroll, Certificate, BadgeCheck } from 
 import { qualifications } from "@/lib/data";
 import { SectionReveal } from "./SectionReveal";
 import { cn } from "@/lib/utils";
+import React from "react";
+
 
 const degreeIcons: Record<string, React.ReactNode> = {
   "Ph.D.": <GraduationCap className="w-5 h-5" />,
